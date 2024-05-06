@@ -6,12 +6,12 @@ function TodoList() {
  const [tasks, setTasks] = useState([
  {
  id: 1,
- text: 'Doctor Appointment',
+ text: 'Interview at jtekt ',
  completed: true
  },
  {
  id: 2,
- text: 'Meeting at School',
+ text: 'meeting at college',
  completed: false
  }
  ]);
@@ -52,7 +52,7 @@ return (
  value={text}
  onChange={e => setText(e.target.value)} 
  />
-<button onClick={() => addTask(text)}>Add</button>
+<button className='btn btn-primary' onClick={() => addTask(text)}>Add</button>
  </div>
  );
 }

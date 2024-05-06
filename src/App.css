@@ -28,6 +28,41 @@
   color: #61dafb;
 }
 
+.App-head{
+  text-align: center;
+  color: rgb(204, 19, 19);
+  background-color: rgb(218, 235, 202);
+  font-style: italic;
+  padding: 1%;
+  margin:20px;
+  height: 95vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.color{
+  background-color: #fbdc61;
+
+}
+.position{
+  position: sticky;
+  width: 100%;
+  top:0;
+  z-index: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.App-footer{
+  height: 10%;
+  background-color: rgb(88, 171, 10);
+  display: inline-flex;
+  margin: 15px;
+  resize: vertical;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
